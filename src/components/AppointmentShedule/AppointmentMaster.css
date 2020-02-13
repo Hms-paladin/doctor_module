@@ -1,0 +1,46 @@
+.uploadsmasterheader{
+    height: auto;
+    width:100%;
+    
+    }
+    .titleuser{
+    font-size: 1.75rem;
+     color: #86b149;
+     font-weight: 600;
+    }
+    .plus-container{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: center;
+    }
+    .plus-icon{
+     cursor: pointer;   
+    }
+    .uploadsmasterheader{
+        width:100%;
+        background-color: #eee;
+        padding: 10px;
+        box-shadow: 11px 23px 16px -25px black;
+    }
+    
+    .Dialogmodal h6{
+    
+    
+    }
+    .availability-clinic-label{
+    
+        font-size: 1.5rem;
+        margin-left: 5px;
+        margin-right: 10px;
+    }
+    .Availability-clinic-dropdown{
+        margin-top: 10px;
+    }
+    .availability-clinic-toggledropdown{
+   
+    }
+  
+    .uploadmaster .anticon{
+       color:#333 !important;
+    }

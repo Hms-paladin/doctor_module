@@ -1,0 +1,49 @@
+.service_type_container{
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  padding:15px;
+  width:100%;
+}
+.clinicbutton-container{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height:80px;
+  width:100%;
+}
+.clinicCancel{
+  font-size: 1.25rem !important;
+  background-color: rgb(201, 201, 201) !important;
+  margin-right: 20px !important;
+  padding:6px 16px !important;
+  font-weight: 600 !important;
+  font-family: "Roboto-Bold" !important;
+}
+.clinicSubmit{
+  font-size: 1.25rem !important;
+  background-color: rgb(38, 128, 235) !important;
+  color:#fff !important;
+  padding:6px 16px !important;
+  font-weight: 600 !important;
+  font-family: "Roboto-Bold" !important;
+}
+.service_type_container .MuiButton-text{
+  padding:6px 16px !important;
+  
+}
+.label-box{
+  width:100%;
+}
+.clinictotal_div{
+  width:50%;
+}
+ /* .MuiTypography-h6 {
+	color: #86b149 !important;
+} */
+.manage_service .labeltxt{
+  color:#333 !important;
+}
+.manage_service .formdiv .brdrcls{
+    font-size: 1.5rem !important;
+}

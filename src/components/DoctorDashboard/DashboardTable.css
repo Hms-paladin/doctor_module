@@ -1,0 +1,378 @@
+.VendorDetailsDiv table {
+  border-collapse: separate;
+  border-spacing: 0 5px;
+  background-color: transparent;
+  padding: 15px;
+}
+.VendorDetailsDiv tr {
+  /*box-shadow: 0 0 0.5px #000;*/
+  background: white;
+}
+.VendorDetailsDiv thead tr {
+  background: transparent !important;
+  font-weight: bold;
+}
+.VendorDetailsDiv tr,
+.VendorDetailsDiv th,
+.VendorDetailsDiv td {
+  border-bottom: 0px solid rgba(224, 224, 224, 1);
+}
+.VendorDetailsDiv .addemployeebtn {
+  text-align: left;
+  padding-bottom: 20px;
+}
+.VendorDetailsDiv .addemployeetxt {
+  background: white;
+  width: 177px;
+  padding: 8px;
+  justify-content: space-between;
+  box-shadow: 1px 1px 1px 1px #ccc;
+  display: inline-flex;
+  align-items: center;
+}
+.VendorDetailsDiv .employeeTitle {
+  padding-left: 15px;
+  font-weight: bold;
+  font-size: 25px;
+  color: #333;
+}
+.VendorDetailsDiv .Mui-selected,
+.VendorDetailsDiv tbody tr:hover {
+  background-color: white !important;
+  box-shadow: 0px 0 10.5px #ddd;
+}
+.VendorDetailsDiv tbody th,
+.VendorDetailsDiv tbody td {
+  color: #b5abab;
+  font-size: 1.45rem;
+}
+.Mui-selected th,
+.Mui-selected td {
+  color: #000 !important;
+}
+.VendorDetailsDiv .addemployeetxticon {
+  padding-left: 10px;
+  color: green;
+  font-size: 22px;
+  /* padding-top: 14px; */
+  color: green;
+  /* margin-top: 20px; */
+  /* padding-top: 12px; */
+  display: inline-flex;
+}
+.VendorDetailsDiv th,
+.VendorDetailsDiv td {
+  padding-left: 15px;
+  text-align: left;
+}
+/*sear css */
+.VendorDetailsDiv .searchicon {
+  margin-right: 4% !important;
+  padding-top: 2%;
+}
+.VendorDetailsDiv .searchicontxt {
+  color: #83af40;
+  font-size: 24px;
+}
+
+.VendorDetailsDiv .paper {
+  width: "100%";
+  margin-bottom: 10px;
+  background-color: "transparent";
+}
+
+.VendorDetailsDiv table {
+  min-width: 750;
+}
+.VendorDetailsDiv .tableWrapper {
+  overflow-x: auto;
+  margin-top: 5px;
+}
+.VendorDetailsDiv thead tr,
+.VendorDetailsDiv thead th {
+  font-size: 16px;
+  /* font-weight: bold; */
+
+  color: #333;
+}
+.VendorDetailsDiv .cancelbtn {
+  background: darkgrey;
+  margin-right: 2%;
+  text-transform: capitalize;
+  color: #000;
+  width: 100px;
+}
+.VendorDetailsDiv .savebtn {
+  background: #82af3f;
+  text-transform: capitalize;
+  color: #fff;
+  width: 100px;
+}
+.VendorDetailsDiv tbody tr {
+  box-shadow: 0 0 0.5px #9e9e9e;
+  background: white;
+}
+
+.VendorDetailsDiv tr,
+.VendorDetailsDiv th,
+.VendorDetailsDiv td {
+  border-bottom: 0px solid rgba(224, 224, 224, 1);
+}
+
+.MuiTablePagination-select {
+  padding-left: 8px !important;
+  padding-right: 24px !important;
+}
+.MuiTablePagination-caption {
+  font-size: 1.5rem !important;
+
+}
+.VendorDetailsDiv .MuiInputBase-input {
+  padding-bottom: 10px !important;
+}
+.ant-popover-message-title {
+  
+}
+.ant-popover-buttons {
+ 
+}
+.active-checkbox {
+  padding: 4px !important;
+}
+.ordericon-container {
+  width: 18px;
+  height: auto;
+  cursor: pointer;
+  margin-left: 10px;
+}
+.ordericon {
+  width: 100%;
+  height: 100%;
+}
+.react-icon-mob {
+  font-size: 2rem !important;
+  width:13px;
+  fill:#333 !important
+}
+.active-check {
+  margin-left: 10px;
+}
+.head-icon-2 {
+  height: 20px;
+}
+.head-icons {
+  font-size: 2rem;
+}
+.react-icon-eyeview {
+  margin-left: 15px;
+  cursor: pointer;
+  font-size: 2rem;
+}
+.MuiMenuItem-gutters {
+  font-size: 1.25rem !important;
+
+}
+.cell_eye {
+  padding-left: 20px !important;
+}
+
+.nurse_dash_bottom_buttons{
+  /* width: 200px;
+  height: 100px; */
+  margin-left: 20px !important;
+ 
+  font-size: 1rem !important;
+  box-shadow: 11px 23px 16px -30px black;
+
+}
+.nurse_dash_bottom1{
+  color: #EC3A32 !important;
+  border: 1px solid !important;
+  font-weight: 600 !important;
+  font-size: 1.5rem !important;
+  box-shadow: 0px 0px 2px #EC3A32;
+  text-transform: none !important;
+  box-shadow: 0 0 0 1px rgba(0,0,0,0.04), 0 4px 8px 0 rgba(0,0,0,0.20) !important;
+}
+.nurse_dash_bottom2{
+  color: #EB1E68 !important;
+  border: 1px solid !important;
+  font-weight: 600 !important;
+  font-size: 1.5rem !important;
+  box-shadow: 0px 0px 2px #EB1E68;
+  text-transform: none !important;
+  box-shadow: 0 0 0 1px rgba(0,0,0,0.04), 0 4px 8px 0 rgba(0,0,0,0.20) !important;
+
+}
+.nurse_dash_bottom3{
+  color: #A42AB8 !important;
+  border: 1px solid !important;
+  font-weight: 600 !important;
+ font-size: 1.5rem !important;
+ box-shadow: 0px 0px 2px #A42AB8;
+ text-transform: none !important;
+ box-shadow: 0 0 0 1px rgba(0,0,0,0.04), 0 4px 8px 0 rgba(0,0,0,0.20) !important;
+
+}
+.MuiButton-label{
+
+ 
+}
+
+.page_button_container{
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 10px;
+}
+
+.nurse_dashboard_buttons_wrap{
+  padding-top: 25px;
+display: flex;
+justify-content: space-around;
+
+}
+.nurse_button_common_styles{
+  display:block;
+  justify-content: center;
+  height: 120px;
+  width: 220px;
+  border-radius: 7px !important;
+  color: #ffffff !important;
+  text-decoration: none !important;
+  font-size: 1.5rem !important;
+}
+.nurse_button1{
+  background-image: linear-gradient(to left, rgb(245, 201, 93), rgba(251, 166, 19, 0.98));
+ cursor: pointer;
+ 
+}
+.nurse_button2{
+  background-image: linear-gradient(to left, rgb(7, 139, 118) , rgb(65, 170, 86)); 
+  cursor: pointer;
+}
+.nurse_button3{
+  background-image: linear-gradient(to left, rgb(236, 66, 117) ,rgb(238, 81, 82)); 
+  cursor: pointer;
+}
+.nurse_button4{
+  background-color: #FF4747 !important;
+ cursor: pointer;
+
+}
+.nurse_button5{
+  background-image: linear-gradient(to bottom, #2197F3 , #27B3F5);
+ cursor: pointer;
+
+}
+.nurse_button_text{
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 8px;
+  color:#fff;
+  font-weight: bold;
+  text-decoration: none !important;
+}
+.nurse_dash_sidehead{
+ 
+  font-size: 1.5rem !important;
+  margin-top: 20px;
+  margin-left: 20px; 
+}
+.divider_container{
+  display: flex;
+  justify-content: center;
+}
+.divider_1px{
+  height: 0.5px;
+  border-radius: 20%;
+  width:85%;
+  background-color:#ffffff;
+
+}
+.buttons_container
+{
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nurse_dash_numeric_wrap{
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  color:#fff;
+}
+.nurse_dash_numeric_value{
+  font-size: 3rem;
+  font-weight: bold;
+}
+.close_action{
+  border-radius: 50%;
+  color: #F86185;
+  font-size: 1.65rem;
+  cursor: pointer;
+  }
+  .action-eye{
+      margin-right: 12px;
+      font-size: 2rem;
+      color: #3B6BED;
+      cursor: pointer;
+  }
+  .today_Appointments{
+  padding: 15px 0px 0px 15px;
+  font-size: 1.75rem !important;
+  color:rgb(51, 51, 51) !important;
+  font-weight: bold;
+ 
+  display: flex;
+  align-items: center;
+  margin-bottom: 0px !important;
+  }
+  .current_date{
+   font-size: 1.5rem;
+   margin-left: 20px;
+   font-weight: 200;
+  }
+  @media only screen and (max-width: 1060px){
+      .nurse_button_common_styles{
+          height: 100px;
+          width: 190px;
+      }
+      .nurse_dash_numeric_wrap{
+          margin-top: 8px;
+      }
+
+  }
+  @media only screen and (max-width: 830px){
+      .nurse_button_common_styles{
+          height: 90px;
+          width: 120px;
+      }
+      .nurse_button_text{
+          margin-top: 7px;
+          display: flex;
+          justify-content: center;
+          margin-bottom: 5px;
+      }
+      .nurse_dash_numeric_wrap{
+          margin-top: 5px;
+      }
+
+  }
+ @media only screen and (max-width: 1040px){
+ .nurse_dash_bottom3{
+           font-size: 1.25rem !important;
+  }
+  .nurse_dash_bottom1{
+    font-size: 1.25rem !important;
+}
+.nurse_dash_bottom2{
+  font-size: 1.25rem !important;
+}
+.titleuser{
+  width:35%;
+}
+ }
+
+

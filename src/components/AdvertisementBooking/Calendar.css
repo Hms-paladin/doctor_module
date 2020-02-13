@@ -1,0 +1,172 @@
+.calendar .days {
+ color:#333 !important;
+ font-weight: 600 !important;
+}
+ :root{
+    --text-color: #333 !important; 
+    --bg-color: none !important;
+}
+.calendar .header{
+   background-color: #82ae3f !important;
+   align-items: center;
+   justify-content: space-between;
+   display: flex;
+   padding:0.5em 1em  !important;
+   color:#fff !important;
+   font-family: "Roboto-Bold";
+   font-size: 1.5rem !important;
+   text-transform: none !important;
+   border-bottom: 0px !important;
+}
+.icon{
+   font-size: 2rem !important;
+}
+.calendar .header .icon:last-of-type{
+  margin-right: 0em !important;
+}
+.calendar .header .icon:first-of-type {
+    margin-left: 0em !important;
+}
+.calendar .header .icon:hover {
+    -webkit-transform: none !important;
+    -ms-transform: none !important;
+    transform: none !important;
+    -webkit-transition: none !important;
+    -o-transition: none !important;
+    transition: none !important;
+   
+}
+.current_date_container{
+    display:flex;
+    align-items: center;
+}
+.date_click{
+    margin-right: 10px;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+
+}
+.calendar .body .cell {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+.calendar .body .cell .number {
+    position: initial !important;
+    font-size: 1rem !important;
+}
+.body_cells{
+    margin-left: 20px;
+    margin-right: 20px;
+    border: 1px solid var(--border-color);
+}
+.calendar .days{
+   font-size: 1rem !important;
+   border: 0px !important;
+   padding-left:15px !important;
+   padding-right: 15px !important;
+}
+.calendar .body .cell{
+  height:4rem !important;
+  
+}
+.total_slots{
+    border: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 23px;
+    margin-left: 20px;
+    margin-right: 10px;
+    background-color: rgb(163, 196, 236);
+}
+.book_slots{
+    display:flex;
+    align-items: center;
+    font-size: 12px !important;
+}
+.book_slots_container{
+    display:flex;   
+}
+.calendar .body .col:nth-child(6){
+    color:rgb(227, 59, 59) !important;
+   
+}
+.calendar .body .disabled:nth-child(6) {
+    color: var(--text-color-light) !important;
+}
+.col:nth-child(6){
+    color:rgb(227, 59, 59) !important;
+}
+ .avail_slots{
+    background-color:rgb(241, 148, 148) !important;
+    border: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 23px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+.calendar .body .selected{
+    border-image: none !important;
+    border-image-slice: 0 !important;
+}
+.calendar .body .cell .bg{
+ color:none !important;
+ position: fixed !important;
+}
+.calendar .body .cell .bg {
+ font-size: 0em !important;
+}
+.slots{
+    border: 1px solid red;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 0px;
+    bottom: 10px;
+    left:0px;
+    font-weight:400;
+    border-radius: 0px 0px 50%;
+    background-color: #a3c4ec;
+    border: none;
+    color:  rgb(46, 132, 235);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    font-family: "Roboto-Bold";
+    box-shadow: 0px 0px 5px;
+}
+.available_slots{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-weight: 400;
+    border-radius: 50% 0px 0px;
+    border: none;
+    color:rgb(225, 47, 47);
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    font-size: 15px;
+    background-color: rgb(241, 148, 148);
+    font-family: "Roboto-Bold";
+    box-shadow: 0px 0px 5px;
+}
+.calendar .body .selected {
+    border-left: 0px !important;
+}
+.fhghfh{
+    background-color: red;
+}
+.calendar .body .disabled .slots {
+   display:none;
+}
+.calendar .body .disabled .available_slots {
+    display:none;
+ }

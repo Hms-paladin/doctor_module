@@ -1,0 +1,116 @@
+.uploadsmasterheader{
+  height: auto;
+  width:100%;
+  
+  }
+  .titleuser{
+  font-size: 1.75rem;
+   color: #86b149;
+  }
+  .doctorpatient_head{
+  
+    position: relative;
+    font-size: 1.5rem;
+    color: #333;
+    font-weight: 600;
+    margin-right: 10px;;
+    margin-bottom: 0px !important;
+  }
+  /* .doctor_type_head .formdiv{
+    top:-6px;
+
+  } */
+  
+  .doctor_patienttype .formdiv {
+    width:35%;
+
+  }
+  .doctor_patienttype{
+    display:flex;
+    align-items: center;
+    width:47%;
+  }
+  .formdiv .selectbox .ant-select-selection--single {
+    padding:0px !important;
+
+  }
+   .trainer_dashboard_master  .doctorplus-container {
+      display: flex;
+      /* flex-direction: column; */
+      align-items: center;
+      justify-content: space-between;
+  }
+  .plus-icon{
+   cursor: pointer;   
+  }
+  .media_service_head{
+      width:100%;
+      background-color: #eee;
+      padding: 10px;
+      box-shadow: 11px 23px 16px -21px;
+     
+  }
+  .Dialogmodal h6{
+    
+  
+  }
+  
+  .clinic_details
+  {
+    color:white !important;
+    font-size: 1.5rem !important;
+    background-color: #3F51B5 !important;
+    border:none;
+    padding:8px;
+     
+    
+  }
+  .clinic_details:focus{
+    background-color:#303f9f !important;
+    }
+  .clinic_details
+  {
+    color:white !important;
+    font-size: 1.5rem !important;
+    border:none;
+    padding:8px; 
+  }
+  .clinic_group_details .MuiButton-root {
+    text-transform:none !important;
+    border-radius: 0px !important;
+    font-size: 1.5rem !important;
+    padding:5px 15px !important;
+    border: none !important;
+    -webkit-box-shadow: inset 0 0 1px #000000;
+  } 
+   .trainer_dashboard_master .MuiButtonGroup-root{
+    box-shadow: 0 0 0 1px rgba(0,0,0,0.04), 0 4px 8px 0 rgba(0,0,0,0.20) !important;
+  }
+  .clinic_date_details
+  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  .currentdate{
+      font-size: 1.25rem;
+      font-weight: 600;
+  }
+  .doctor_type_head{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .right_arrowicon{
+    font-size: 2.5rem !important;
+    cursor: pointer;
+    position: relative;
+    top: -2px;
+  }
+  .group_buttons_div{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+
+  }

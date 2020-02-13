@@ -1,0 +1,80 @@
+.uploadsmasterheader{
+height: auto;
+width:100%;
+
+
+}
+.managetitleuser{
+font-size: 1.75rem;
+ color: #86b149;
+ font-weight: bold;
+}
+.manageservicemaster .doctorplus-container {
+    display: flex;
+    /* flex-direction: column; */
+	align-items: center;
+    justify-content: space-between;
+}
+.manageservicemaster .plus-icon{
+ cursor: pointer;   
+ margin-left: 13px;
+}
+.uploadsmasterheader{
+    width:100%;
+    background-color: #eee;
+    padding: 10px;
+    box-shadow: 11px 23px 16px -21px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Dialogmodal h6{
+  
+
+}
+
+
+.clinic_details
+{
+	color:white !important;
+	font-size: 12px !important;
+	background-color: #3F51B5 !important;
+	border:none;
+	padding:8px;
+   
+	
+}
+.clinic_details:focus{
+	background-color:#303f9f !important;
+	}
+.clinic_details
+{
+	color:white !important;
+	font-size: 1.5rem !important;
+	
+	border:none;
+	padding:8px;
+	
+}
+
+.clinic_group_details .MuiButton-root {
+	text-transform:none !important;
+	border-radius: none !important;
+
+} 
+.clinic_date_details
+{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+}
+.manageservicemaster .currentdate{
+	font-size: 1.25rem;
+	margin-right: 13px;
+}
+.current_container{
+	display:flex;
+	align-items: center;
+	justify-content: flex-end;
+}
